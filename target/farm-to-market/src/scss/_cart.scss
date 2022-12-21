@@ -1,0 +1,22 @@
+.product-desc {
+  width: 50% !important;
+
+  p {
+    font-size: small;
+  }
+}
+
+.empty-cart {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    width: 200px;
+    @include breakpoint-max(sm) {
+      width: 80%;
+    }
+  }
+}

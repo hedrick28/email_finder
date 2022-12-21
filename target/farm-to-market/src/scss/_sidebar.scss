@@ -1,0 +1,100 @@
+.wrapper {
+  min-height: 380px;
+}
+.wrapper .sidebar {
+  background: #ebedf0;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+
+  @include breakpoint-max(sm) {
+    width: 50px;
+  }
+}
+
+.toggle-sidebar {
+  width: 225px !important;
+}
+
+.wrapper .sidebar ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 13px 0;
+  color: #000;
+  font-size: 16px;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.wrapper .sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+.wrapper .sidebar ul li a .item {
+  @include breakpoint-max(sm) {
+    display: none;
+  }
+}
+.show-item {
+  display: inline-flex !important;
+}
+
+.wrapper .sidebar ul li a .icon {
+  color: #04b250;
+  width: 30px;
+  display: inline-block;
+  @include breakpoint-max(sm) {
+    font-size: 20px;
+  }
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+  color: #fff;
+  background: #04b250;
+  border-right: 2px solid rgb(5, 68, 104);
+  .icon {
+    color: #fff !important;
+  }
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon {
+  color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before {
+  display: block;
+}
+
+.wrapper .section {
+  display: none;
+  transition: all 0.5s ease;
+  background: #04b250;
+  @include breakpoint-max(sm) {
+    display: block;
+  }
+}
+
+.wrapper .section .top_navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 0px;
+  @include breakpoint-max(sm) {
+    display: block;
+  }
+}
+
+.wrapper .section .top_navbar .hamburger a {
+  font-size: 28px;
+  color: #f4fbff;
+}
+
+.wrapper .section .top_navbar .hamburger a:hover {
+  color: #a2ecff;
+}

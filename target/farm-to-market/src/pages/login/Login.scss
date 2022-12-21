@@ -1,0 +1,114 @@
+$main-color: #4dd6b6;
+
+#errorid {
+  font-size: smaller;
+  color: red;
+  text-align: left;
+  margin-left: 55px;
+}
+.main-login {
+  min-height: 69vh;
+  min-width: 95vw;
+  overflow-x: hidden;
+  background: linear-gradient(
+    to right,
+    rgb(223, 221, 221) 50%,
+    $main-color 50%
+  );
+  text-align: center;
+}
+.login-contain {
+  width: 70%;
+  height: 75vh;
+  background: linear-gradient(-45deg, #04b250 -5%, #fff 60%);
+  border-radius: 1rem;
+  margin: 2rem auto;
+  box-shadow: 0.5rem 0.5rem 2rem -1rem white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .link {
+    text-decoration: none;
+    font-size: small;
+    color: $main-color;
+  }
+  .left-side,
+  .right-side {
+    margin: 2rem 2rem;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+    height: 80%;
+    width: 100%;
+  }
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .img-class {
+      height: 4.5rem;
+      #img-id {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .input-group-prepend {
+      width: 80px;
+      margin-left: 50px;
+      margin-right: -59px;
+    }
+    input {
+      display: block;
+      border: none;
+      height: 2rem;
+      width: 70%;
+      margin: auto;
+      margin-bottom: 1.5rem;
+      padding: 0.2rem 1rem;
+      transition: all 0.1s ease-in-out;
+      color: gray;
+      &:focus {
+        outline: none;
+        border: none;
+      }
+      &:hover {
+        outline: 0.5px solid $main-color;
+        box-shadow: 4px 3px 9px -1px $main-color;
+      }
+    }
+    label {
+      display: block;
+      text-align: left;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      width: 70%;
+      margin: auto;
+      font-size: small;
+      color: gray;
+      margin-bottom: 0.5 rem;
+    }
+    #sub_butt {
+      width: 70%;
+      background-color: #04b250;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      transition: all 0.2s ease;
+      &:hover {
+        box-shadow: 4px 3px 9px -1px gray;
+        transform: translateY(-5px);
+      }
+    }
+  }
+  .right-side {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    .welcomeimg {
+      width: 70%;
+      margin: 0rem auto;
+      #wel-img-id {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

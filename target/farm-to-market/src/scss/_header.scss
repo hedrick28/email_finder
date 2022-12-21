@@ -1,0 +1,137 @@
+@import "./mixins";
+.f-bg-primary {
+  background: linear-gradient(-45deg, #04b250 -5%, #fff 60%) !important;
+}
+
+.logo {
+  max-width: 70px;
+}
+
+.logo-container-list {
+  @include breakpoint-max(sm) {
+    display: none;
+  }
+}
+
+.logo-container-brand {
+  display: none;
+  @include breakpoint-max(sm) {
+    display: block;
+  }
+}
+.search-input {
+  @include breakpoint-max(md) {
+    width: 250px;
+  }
+}
+
+.nav-router-link {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.nav-router-link:hover {
+  text-decoration: underline;
+}
+
+.header-profile,
+.header-profile:hover,
+.header-profile:focus {
+  color: #000 !important;
+  border: transparent !important;
+  background: transparent !important;
+  font-size: 18px !important;
+}
+
+.notif-dropdown::after {
+  display: none !important;
+}
+
+.notif {
+  max-height: 220px;
+  overflow: scroll;
+}
+
+.notif::-webkit-scrollbar {
+  display: none;
+}
+
+.notif-item {
+  border-bottom: 1px solid gray !important;
+  .notif-content {
+    div {
+      text-transform: capitalize;
+      font-weight: 500;
+    }
+    p {
+      text-transform: capitalize;
+      max-width: 20rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    @include breakpoint-max(xs) {
+      width: 100%;
+    }
+  }
+}
+
+.header-none {
+  display: none !important;
+}
+.header-show {
+  display: block !important;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  @include breakpoint-min(bxs) {
+    background-color: #000;
+    display: none !important;
+  }
+  ul {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.navbar-toggler {
+  @include breakpoint-max(xs) {
+    border: none !important;
+  }
+}
+
+.navbar-toggler:focus {
+  @include breakpoint-max(xs) {
+    box-shadow: unset !important;
+  }
+}
+
+.header-content-wrapper {
+  width: 100% !important;
+  @include breakpoint-min(bxs) {
+    width: unset !important;
+  }
+}
+
+.logo-wrapper {
+  @include breakpoint-max(xs) {
+    display: none;
+  }
+}
+
+.hide-on-mobile {
+  display: flex !important;
+  @include breakpoint-max(bxs) {
+    display: none !important;
+  }
+}
+.hide-on-mobile-1 {
+  @include breakpoint-max(bxs) {
+    display: none !important;
+  }
+}

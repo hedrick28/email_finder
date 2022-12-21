@@ -1,0 +1,62 @@
+// Here you can add other styles
+.custombutton {
+  background-color: #022135 !important;
+}
+
+:root {
+  --cui-secondary: #00aae4;
+  --cui-secondary-rgb: 40, 170, 228;
+  --cui-primary: #cd5700;
+  --cui-primary-rgb: 205, 87, 0;
+  --cui-info: #003169;
+  --cui-info-rgb: 0, 49, 105;
+  --cui-success: #3cb371;
+  --cui-success-rgb: 60, 179, 113;
+}
+
+a {
+  color: black !important;
+  font-weight: 500 !important;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.nav-pills .nav-link.active {
+  --cui-nav-pills-link-active-bg: #076eb0 !important;
+}
+
+.btn-color {
+  background-color: #003169;
+  --cui-btn-disabled-bg: #003169;
+  --cui-btn-border-color: black;
+  --cui-btn-hover-border-color: black;
+  --cui-btn-disabled-border-color: black;
+
+  &:hover {
+    background-color: #076eb0;
+  }
+}
+
+.btn-color2 {
+  background-color: #076eb0;
+  --cui-btn-disabled-bg: #076eb0;
+  --cui-btn-border-color: black;
+  --cui-btn-hover-border-color: black;
+  --cui-btn-disabled-border-color: black;
+
+  &:hover {
+    background-color: #003169;
+  }
+}
+
+.student-news {
+  width: 50%;
+}
+
+.bg-blue {
+  background: #022135;
+}

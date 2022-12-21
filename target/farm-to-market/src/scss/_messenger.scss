@@ -1,0 +1,49 @@
+#chat2 .form-control {
+  border-color: transparent;
+}
+
+#chat2 .form-control:focus {
+  border-color: transparent;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.chat-wrapper {
+  overflow: scroll !important;
+}
+
+.messenger-container {
+  z-index: 2;
+  position: fixed;
+  right: 30px;
+  bottom: 0px;
+  width: 300px !important;
+}
+
+.message-search {
+  width: 300px !important;
+
+  input {
+    border-top-left-radius: 2rem !important;
+    border-bottom-left-radius: 2rem !important;
+  }
+
+  span {
+    border-top-right-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+  }
+  .search-wrapper {
+    position: fixed !important;
+  }
+
+  .sample {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
+}

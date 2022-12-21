@@ -1,0 +1,67 @@
+.profilePicture {
+  border: 2px solid black !important;
+}
+
+.us-btn-primary {
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: #ffc13b !important;
+  border: 2px solid black !important;
+  cursor: pointer;
+}
+// .form-select-address {
+//   select {
+//     width: 500px;
+//     height: 3rem !important;
+//     margin-left: 12px;
+//     border-radius: 0.375rem;
+//   }
+// }
+
+.us-btn-secondary {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #851313 !important;
+  border: 2px solid #3b3b3b !important;
+}
+
+.us-btn-danger {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #c31414 !important;
+  border: 2px solid #c31414 !important;
+}
+
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 1rem;
+}
+.input-group-text {
+  height: 49px;
+}
+
+.btn-us-primary {
+  background: #ffc836;
+  font-size: larger;
+  font-weight: 500;
+  color: #fff;
+}
+
+.form-control {
+  height: 3rem !important;
+}
+
+.bg-us-primary {
+  background: #ffc836 !important;
+}
+
+.color {
+  background: #3b4bff;
+}

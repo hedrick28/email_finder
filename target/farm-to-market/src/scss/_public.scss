@@ -1,0 +1,107 @@
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: #003169;
+  color: white;
+}
+
+.about-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.aboutcard {
+  width: 100%;
+  border-radius: 0px !important;
+}
+
+.about-header {
+  font-size: 25px;
+  font-weight: 700;
+  color: #003169;
+  text-align: center;
+}
+
+.list-title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #022135;
+}
+
+.list-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ptext {
+  font-size: 16.5px;
+  font-weight: 400;
+}
+
+//CONTACTINFO
+.contact-banner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-img {
+  width: 85%;
+  padding-left: 50px;
+}
+
+.contact-title {
+  color: #2c8263;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact-info {
+  text-align: center;
+  height: 100%;
+}
+
+// @media screen and (max-width: 960px) {
+//   .contact-info {
+//     padding-bottom: 60px;
+//   }
+// }
+
+.unborder {
+  border: none !important;
+}
+
+.campus-header {
+  font-size: 25px;
+  font-weight: 700;
+  color: #076eb0;
+  text-align: center;
+}
+
+.campus-title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #003169;
+}
+
+.nobullet {
+  list-style: none;
+}
+
+.bullet {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+//NEWS
+.news-head {
+  text-align: center;
+  color: #003169;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.news-image {
+  object-fit: cover;
+  width: auto;
+}

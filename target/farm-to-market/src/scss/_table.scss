@@ -1,0 +1,38 @@
+.table-f-data {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include breakpoint-max(xs) {
+    height: 30px !important;
+  }
+}
+
+.table-f-image {
+  img {
+    @include breakpoint-max(xs) {
+      width: 50px !important;
+    }
+  }
+}
+
+.span-btn {
+  cursor: pointer;
+}
+
+.img-desc {
+  @include breakpoint-max(sm) {
+    width: 435px;
+    overflow: hidden;
+    height: unset !important;
+  }
+  font-size: 12px;
+  overflow: hidden;
+  height: 90px;
+  width: 235px;
+  text-align: left !important;
+  text-transform: capitalize;
+}
+.f-s {
+  font-size: 12px;
+}

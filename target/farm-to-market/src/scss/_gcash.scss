@@ -1,0 +1,83 @@
+.gcash-container {
+  position: relative;
+  .card {
+    border-radius: 0 !important;
+  }
+
+  .top {
+    height: 250px;
+    background-color: blue;
+  }
+
+  .bottom {
+    top: 110px;
+    left: 32%;
+    right: 32%;
+    position: absolute;
+
+    @include breakpoint-max(sm) {
+      left: 22%;
+      right: 22%;
+    }
+
+    @include breakpoint-max(xs) {
+      left: 12%;
+      right: 12%;
+    }
+
+    @include breakpoint-max(xs) {
+      left: 5%;
+      right: 5%;
+    }
+
+    img {
+      margin-top: 2rem;
+      color: #fff;
+    }
+
+    form {
+      padding: 0 3rem 0 3rem;
+
+      @include breakpoint-max(xs) {
+        padding: 0 1rem 0 1rem;
+      }
+
+      .m-n {
+        padding-top: 10px;
+        padding-bottom: 1rem;
+      }
+
+      .input-group-text {
+        background-color: #fff !important;
+        border: transparent !important;
+        border-radius: 0 !important;
+        border-bottom: 1px solid #000 !important;
+      }
+
+      .n-2,
+      .n-2:focus {
+        background-color: #fff !important;
+        border: transparent !important;
+        color: #495057;
+        background-color: #fff;
+        border-color: #fff;
+        outline: 0;
+        padding: 0 !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        border-bottom: 1px solid #000 !important;
+      }
+
+      button {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      .n-1 {
+        margin: 5px;
+        height: 2rem !important;
+        text-align: center;
+        width: 35px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.q-counter-btn {
+  border: 1px solid gray;
+  width: 50px;
+  height: 30px;
+}
+.q-counter {
+  border: 1px solid gray;
+  width: 50px;
+  text-align: center;
+}
+
+.product-card-report {
+  border-radius: 0px !important;
+
+  .title {
+    font-size: 24px;
+  }
+
+  .rating-report {
+    border: 1px solid #a6abb1;
+    text-align: center;
+    padding: 5px;
+  }
+}
+.details-f {
+  .report {
+    background: #edf9ea !important;
+  }
+
+  .sold {
+    background: #fffbf8 !important;
+  }
+}

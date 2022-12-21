@@ -1,0 +1,17 @@
+.transaction-success {
+  height: 400px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  flex-direction: column;
+  color: #04b250;
+
+  a {
+    margin-top: 3rem;
+    width: 250px;
+
+    @include breakpoint-max(sm) {
+      width: 100%;
+    }
+  }
+}

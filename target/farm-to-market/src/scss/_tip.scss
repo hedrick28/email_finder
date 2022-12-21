@@ -1,0 +1,17 @@
+.f-card-header {
+  display: flex;
+  justify-content: end;
+  background-color: #fff !important;
+  border-bottom: unset !important;
+  .notif-dropdown {
+    background-color: #fff !important;
+    border: #fff;
+  }
+}
+
+.tip-card {
+  width: 50%;
+  @include breakpoint-max(sm) {
+    width: 100%;
+  }
+}
